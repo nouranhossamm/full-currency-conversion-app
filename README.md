@@ -3,18 +3,18 @@ Banque Misr intern project
 
 ## Team members:
 #### Back-end:
-      ---
-      - Nouran Hosameldin
-      - Menna Moataz
-      - Mohammed Bassiony
-      - Mohammed Hatem
+---
+- Nouran Hosameldin
+- Menna Moataz
+- Mohammed Bassiony
+- Mohammed Hatem
 #### Front-end:
-      ---
-      - Asmaa Sayed
-      - Amar Omar
+---
+- Asmaa Sayed
+- Amar Omar
 #### iOS:
-      ---
-      - Mohammed Salah
+---
+- Mohammed Salah
 #### Android:
-      ---
-      - Ghady Amin
+---
+- Ghady Amin
