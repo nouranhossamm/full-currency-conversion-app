@@ -19,4 +19,4 @@ Banque Misr intern project
 #### Android:
 - Ghady Amin
 
-#### supervisor: Eng. Marwan Mostafa
+#### Supervisor: Eng. Marwan Mostafa
