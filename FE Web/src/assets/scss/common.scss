@@ -1,0 +1,21 @@
+html,
+body {
+  min-height: 100vh;
+  font-family: Poppins;
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.modal {
+  background-color: #0000004c;
+  .modal-dialog {
+    margin-right: 8%;
+    background-color: #fff;
+    border-radius: 30px;
+  }
+
+  .modal-content {
+    border: none;
+  }
+}

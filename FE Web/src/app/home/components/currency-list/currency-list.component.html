@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="d-flex align-items-center justify-content-between my-5">
+    <h3 class="mb-0 exchange">live exchange rates</h3>
+    <button class="fav-btn py-2 px-4" (click)="addToFaviorites()">
+      <img
+        class="me-3"
+        width="35"
+        height="35"
+        src="../../../../assets/images/plus 1.svg"
+        alt="icon"
+      />
+      <span class="add-to-favourites">Add to Favorites</span>
+    </button>
+  </div>
+
+  <p class="portofolio">My Portofolio</p>
+
+  <div class="row d-flex">
+    <div
+      *ngFor="let item of currencies"
+      class="col-12 col-md-6 col-xl-4 justify-content-between d-flex mb-5"
+    >
+      <div class="d-flex">
+        <img class="me-3" width="70" height="70" [src]="item.icon_url" alt="" />
+        <div class="currency-element">
+          <p class="mb-0">{{ item.code }}</p>
+          <span>{{ item.name }}</span>
+        </div>
+      </div>
+
+      <p class="number">{{ item.value | number }}</p>
+    </div>
+  </div>
+</div>

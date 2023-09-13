@@ -1,0 +1,35 @@
+<div class="d-flex justify-content-center flex-column">
+  <div class="d-flex justify-content-center div-background">
+    <app-parent ></app-parent>
+  </div>
+  <app-currency-list
+    (showFavorite)="showFavoriteEvent($event)"
+    [currencies]="currencies"
+  ></app-currency-list>
+
+  <div
+    class="modal"
+    tabindex="-1"
+    role="dialog"
+    [ngStyle]="{ display: showFav }"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="d-flex justify-content-between align-items-start">
+          <h4 class="modal-title ms-2 mt-3">My Favoriates</h4>
+          <button (click)="closePopup()" class="close-btn p-2 mx-3">
+            <img
+              width="30"
+              height="30"
+              src="../../../../assets/./images/./x.svg"
+              alt=""
+            />
+          </button>
+        </div>
+        <div class="add-favorite mb-2">
+          <app-add-favorite [(currencies)]="currencies"></app-add-favorite>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
